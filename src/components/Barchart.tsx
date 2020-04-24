@@ -48,7 +48,7 @@ function Barchart() {
       indexBy="country"
       margin={{ top: 50, right: 130, bottom: 50, left: 60 }}
       padding={0.3}
-      colors={["pink", "purple", "red", "tomato", "blue", "#00FF00"]}
+      colors={["pink", "purple", "red", "tomato", "#0000FF", "#00FF00"]}
       borderColor={{ from: "color", modifiers: [["darker", 1.6]] }}
       axisTop={null}
       axisRight={null}
